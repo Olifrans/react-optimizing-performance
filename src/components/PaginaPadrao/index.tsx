@@ -7,7 +7,7 @@ export default function PaginaPadrao() {
     <>
       <header className={styles.header}>
         <div className={styles.header__text}>
-          Olifrans software developer estudando Stack-FullStack.
+          Software Developer FullStack
         </div>
       </header>
       <div className={stylesTema.container}>
