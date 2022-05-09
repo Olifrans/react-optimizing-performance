@@ -4,6 +4,7 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const Cardapio = lazy(() => import("pages/Cardapio"));
+
 const PaginaPadrao = lazy(() => import("components/PaginaPadrao"));
 const Inicio = lazy(() => import("pages/Inicio"));
 const NotFound = lazy(() => import("pages/NotFound"));
