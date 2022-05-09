@@ -32,4 +32,5 @@ function Filtros({ filtro, setFiltro }: Props) {
     </div>
   );
 }
+
 export default memo(Filtros);
